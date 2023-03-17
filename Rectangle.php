@@ -4,9 +4,16 @@ require_once "Shape.php";
 
 class Rectangle extends Shape {
 
-    private float $edge1 ; 
-    private float $edge2 ; 
+    private float $edge1 ;
+    private float $edge2 ;
 
+    /**
+     * Constructeur de la classe Rectangle. Ce constructeur permet
+     * d’affecter un nombre de sommets à une forme.
+     *
+     * @param float edge1 (optional) Nombre de sommets de la forme
+     * @param float edge2 (optional) Nombre de sommets de la forme
+     */
     public function __construct (float $a1, float $a2)
     {
         parent::__construct(4);
@@ -15,11 +22,13 @@ class Rectangle extends Shape {
         echo "Rectangle ( $a1 , $a2 )\n";
     }
 
+    /**
+     * Affichage des attributs edge1 et edge2 du rectangle.
+     */
     public function print () : void
     {
-        parent::print(); 
+        parent::print();
         echo "Arete1 : {$this->edge1}\n";
         echo "Arete2 : {$this->edge2}\n";
-    }   
+    }
 }
-
