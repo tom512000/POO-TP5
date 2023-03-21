@@ -9,10 +9,10 @@ class Rectangle extends Shape {
 
     /**
      * Constructeur de la classe Rectangle. Ce constructeur permet
-     * d’affecter un nombre de sommets à une forme.
+     * d’affecter deux longueurs d'arête à un rectangle.
      *
-     * @param float edge1 (optional) Nombre de sommets de la forme
-     * @param float edge2 (optional) Nombre de sommets de la forme
+     * @param float $a1 (optional) Longueur de la première arête
+     * @param float $a2 (optional) Longueur de la deuxième arête
      */
     public function __construct (float $a1, float $a2)
     {
