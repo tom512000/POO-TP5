@@ -10,7 +10,7 @@ class Shape
      *
      * @param int $sommets (optional) Nombre de sommets de la forme
      */
-    public function __construct (int $sommets)
+    public function __construct(int $sommets)
     {
         $this->vertices = $sommets ;
         echo "Shape ( $sommets ) \n";
@@ -19,7 +19,7 @@ class Shape
     /**
      * Affichage de l'attribut vertices de la forme.
      */
-    public function print () : void
+    public function print() : void
     {
         echo "Sommets : $this->vertices\n";
     }
