@@ -14,7 +14,7 @@ class Rectangle extends Shape {
      * @param float $a1 (optional) Longueur de la première arête
      * @param float $a2 (optional) Longueur de la deuxième arête
      */
-    public function __construct (float $a1, float $a2)
+    public function __construct(float $a1, float $a2)
     {
         parent::__construct(4);
         $this->edge1=$a1;
@@ -25,7 +25,7 @@ class Rectangle extends Shape {
     /**
      * Affichage des attributs edge1 et edge2 du rectangle.
      */
-    public function print () : void
+    public function print() : void
     {
         parent::print();
         echo "Arete1 : {$this->edge1}\n";

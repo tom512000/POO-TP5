@@ -45,7 +45,7 @@ class Lodgement
     }
 
     /**
-     * Affichage des attributs du lodgement. Retourne une chaîne de caractères composée
+     * Affichage des attributs de lodgement. Retourne une chaîne de caractères composée
      * d'une surface, d'un type et d'un prix au mètre carré du lodgement.
      *
      * @return string Attributs du lodgement
